@@ -1,0 +1,75 @@
+@import './base.css';
+
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  .app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+.btn {
+  color: var(--bootstrap-light);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn.primary {
+  background-color: var(--bootstrap-primary);
+}
+.btn.secondary {
+  background-color: var(--bootstrap-secondary);
+}
+.btn.success {
+  background-color: var(--bootstrap-success);
+}
+.btn.danger {
+  background-color: var(--bootstrap-danger);
+}
+.btn.warning {
+  background-color: var(--bootstrap-warning);
+}
+.btn.info {
+  background-color: var(--bootstrap-info);
+}
+.btn.light {
+  background-color: var(--bootstrap-light);
+  color: var(--bootstrap-dark);
+}
+.btn.dark {
+  background-color: var(--bootstrap-dark);
+}
+
+li.list-item {
+  background-color: rgba(256, 256, 256, 0.35);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 12px 30px 20px 30px;
+}
