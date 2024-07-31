@@ -18,7 +18,7 @@ app1.use(router);
  * event handlers
  * lifecycle hooks
  * setup()
- * wathers
+ * watchers
  * custom directive hooks
  * transition hooks
  * @param err 錯誤物件
